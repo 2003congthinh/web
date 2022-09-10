@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9f6faf80f4.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <!--Topnav container-->
+        <div class="topnav-container" id="topnav">
+            <a href="#home"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+            <a href="#cart"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Cart</a>
+            <a href="contact.html"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;Contact</a>
+            <a href="aboutus.html"><i class="fa-solid fa-circle-info"></i>&nbsp;&nbsp;About</a>
+            <a href="javascript:void(0);" class="icon" onclick="resNav()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <!--Intro container-->
+        <div class="intro-container">
+            <h1 style="color:aliceblue; padding: 16px 0;">Contact Us!</h1>
+            <p style="color:aliceblue; margin: 16px 0;">Fill in the form below</p>
+        </div>
+        <!--Content body-->
+        <div class="form-container">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Phone Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="phone" name="phonenum" placeholder="0xx-xxx-xxxx">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="mes" name="mes" placeholder="Leave a message.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <!--footer container-->
+        <footer>
+            <div class="footer-container">
+
+            </div>
+        </footer>
+    </body>
+    </html>
