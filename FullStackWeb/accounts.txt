@@ -1,14 +1,1 @@
-PicturePkmnhuntet: picts/wp_06_1920x1080_pc.jpg
-Username: Pkmnhuntet
-Password: $2y$10$QPxefcH2qrKfmGURxjRWR.DrIPgzyi7Z2JyP/leeXKOSNzNlvNuLi
-Business_namePkmnhuntet: Thunder
-AddressPkmnhuntet: Hahahaha
-PictureThinhNguyen: picts/wp_05_1920x1080_pc.jpg
-Username: ThinhNguyen
-Password: $2y$10$BX/2SCD5ghdI/rH/ZcujyOAi.wD01ExcevGuermtwqC9XF1zGqsmO
-FullnameThinhNguyen: Pokemonhunted
-AddressThinhNguyen: Hahahaha
-PictureDuongDam: picts/wp_04_1920x1080_pc.jpg
-Username: DuongDam
-Password: $2y$10$JZT74NxVAPVQEWEuFHbTleV19QsLRwo70TPL3RYS..I.fhoxAUfYK
-HubDuongDam: XaDan
+
